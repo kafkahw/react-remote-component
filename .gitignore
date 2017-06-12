@@ -1,0 +1,21 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# TODO: uncomment the following line when npm resolves this issue: https://github.com/npm/npm/issues/3055
+# lib
+dist
+build
+doc
+lib
+
+.DS_Store

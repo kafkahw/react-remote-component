@@ -1,0 +1,26 @@
+// When you write javascript you should follow these soft rules and best practices
+// https://github.com/airbnb/javascript
+
+// This is a link to best practices and enforcer settings for eslint
+// https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
+
+// Use this file as a starting point for your project's .eslintrc.
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "jquery": true,
+    "commonjs": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": ["airbnb"],
+  "rules": {
+    "no-console": 0,
+    "no-unused-vars": 0,
+    "max-len": 0,
+    // The following line ignores import from 'healthelife_sdk-js' since we'll provide it externally at run time.
+    // More details at: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md#ignore
+    "import/no-unresolved": [ 2, { "ignore": ["healthelife_sdk-js"] }]
+  }
+}
